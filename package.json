@@ -1,0 +1,23 @@
+{
+  "name": "quote-app",
+  "version": "1.0.0",
+  "description": "An application to return a quote at each request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "quote",
+    "web",
+    "app"
+  ],
+  "author": "Mbahersem",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pug": "^3.0.3"
+  }
+}
